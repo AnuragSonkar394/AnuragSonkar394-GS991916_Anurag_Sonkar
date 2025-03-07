@@ -1,0 +1,48 @@
+/* Layout container */
+.container {
+    display: flex;
+    height: 100vh; 
+    padding-top: 70px;
+}
+
+/* Sidebar */
+app-sidebar {
+    width: 200px; 
+    background-color: #f8f9fa;
+   
+    transition: all 0.3s ease-in-out;
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+
+app-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+   
+}
+
+
+main.content {
+    padding-top: 70px; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+    
+    app-sidebar {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+}
