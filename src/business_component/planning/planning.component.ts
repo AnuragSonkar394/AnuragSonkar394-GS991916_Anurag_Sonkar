@@ -88,7 +88,7 @@ export class PlanningComponent {
   columnDefs: any[] = [];
   createColumnDefs() {
     this.columnDefs = [
-      { headerName: 'Store', field: 'Store', sortable: true, filter: true },
+      { headerName: 'Store', field: 'Store', sortable: true, filter: true},
       { headerName: 'SKU', field: 'SKU', sortable: true, filter: true }
     ];
 
