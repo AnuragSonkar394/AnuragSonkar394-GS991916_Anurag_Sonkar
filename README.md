@@ -1,74 +1,114 @@
-# GSChallenge
+# GS Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version **17.3.7**.
 
-📁 Project Structure
+---
 
-![image](https://github.com/user-attachments/assets/1677e5af-f086-425b-bdb7-104c847ed60a)
+## 📁 Project Structure
 
+![Project Structure](https://github.com/user-attachments/assets/1677e5af-f086-425b-bdb7-104c847ed60a)
 
-🛠 Installation Steps
+---
+
+## 🛠 Installation Guide
+
 Follow these steps to set up and run the project locally.
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```sh
 git clone https://github.com/AnuragSonkar394/AnuragSonkar394-GS991916_Anurag_Sonkar
 cd GS_Challenge
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 Run the following command to install all required npm packages:
-
+```sh
 npm install
-3️⃣ Start the Development Server
+```
+
+### 3️⃣ Start the Development Server
+Run the following command to start the development server:
+```sh
 ng serve
+```
 After running the command, open your browser and visit:
-http://localhost:4200
+👉 [http://localhost:4200](http://localhost:4200)
 
+The application will automatically reload if you change any source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-📌 Dependencies
+## 📌 Dependencies
 This project uses the following dependencies:
-🔹 Angular
-Angular CLI: ^17
-Node.js: ^18 (Ensure it's installed)
-🔹 UI Libraries
-Bootstrap 5: npm install bootstrap
-AG Grid: npm install ag-grid-angular ag-grid-community
-Chart.js: npm install chart.js
 
-Store Screen
+### 🔹 Angular
+- **Angular CLI:** ^17
+- **Node.js:** ^18 (Ensure it's installed)
 
-![image](https://github.com/user-attachments/assets/376f412b-3da6-4b3e-b78b-a9f51dde2acd)
+### 🔹 UI Libraries
+- **Bootstrap 5:** `npm install bootstrap`
+- **AG Grid:** `npm install ag-grid-angular ag-grid-community`
+- **Chart.js:** `npm install chart.js`
 
-SKU Screen 
+---
 
-![image](https://github.com/user-attachments/assets/9a1ff1dc-74fa-49e5-a86d-a144eb7cb5a9)
+## 📊 Screenshots
 
-Planning Screen 
+### 🏬 Store Screen
+![Store Screen](https://github.com/user-attachments/assets/376f412b-3da6-4b3e-b78b-a9f51dde2acd)
 
-![image](https://github.com/user-attachments/assets/3ff278dd-aebd-40b6-9a76-0de1cf1a5605)
+### 📦 SKU Screen
+![SKU Screen](https://github.com/user-attachments/assets/9a1ff1dc-74fa-49e5-a86d-a144eb7cb5a9)
 
-Chart Screen
+### 📅 Planning Screen
+![Planning Screen](https://github.com/user-attachments/assets/3ff278dd-aebd-40b6-9a76-0de1cf1a5605)
 
-![image](https://github.com/user-attachments/assets/63204d08-13c8-49c8-ab3c-36835ce80d37)
+### 📈 Chart Screen
+![Chart Screen](https://github.com/user-attachments/assets/63204d08-13c8-49c8-ab3c-36835ce80d37)
 
+---
 
-## Code scaffolding
+## ⚡ Development Commands
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🔹 Generate Components & Services
+Use the following command to generate a new component:
+```sh
+ng generate component component-name
+```
+You can also use:
+```sh
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
-## Build
+### 🔹 Build the Project
+Run the following command to build the project. The build artifacts will be stored in the `dist/` directory:
+```sh
+ng build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 🔹 Running Unit Tests
+Execute unit tests using [Karma](https://karma-runner.github.io):
+```sh
+ng test
+```
 
-## Running unit tests
+### 🔹 Running End-to-End Tests
+Run end-to-end tests via a testing platform of your choice:
+```sh
+ng e2e
+```
+To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📖 Further Help
+To get more help on Angular CLI, use:
+```sh
+ng help
+```
+or check out the [Angular CLI Documentation](https://angular.io/cli).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+### 🚀 Happy Coding! 🎉
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
