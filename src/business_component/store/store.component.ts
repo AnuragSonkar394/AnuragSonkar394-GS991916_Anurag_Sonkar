@@ -13,8 +13,8 @@ export class StoreComponent {
   private gridApi!: GridApi;
   // { seqId: 1, id: "ST035", label: "San Francisco Bay Trends", city: "San Francisco", state: "CA" },
 
-  seqId: any;
-  id: any;
+  seqId: number=0;
+  id: string ='';
   label: any;
   city: any;
   state: any;
@@ -80,7 +80,9 @@ export class StoreComponent {
       city: this.city,
       state: this.state
     };
-
+   
+    console.log(newstore);
+    
     this.rowData = [...this.rowData, newstore];
     this.cdr.detectChanges();
     this.showForm = false;
@@ -88,7 +90,7 @@ export class StoreComponent {
   }
 
   resetForm() {
-    this.seqId = '';
+    this.seqId = 0;
     this.id = '';
     this.label = '';
     this.city = '';

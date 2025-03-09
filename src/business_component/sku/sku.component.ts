@@ -14,8 +14,8 @@ export class SkuComponent {
   label: any;
   class: any;
   department: any;
-  price: any;
-  cost: any;
+  price: number =0;
+  cost: number = 0;
   isModalVisible: boolean = false;
 
   openModal() {

@@ -26,11 +26,11 @@
 <form *ngIf="showForm">
 <div class="input-row">
 <label for="seqId">seqId:</label>
-<input type="text" [(ngModel)]="seqId" name="seqId" required />
+<input type="number" [(ngModel)]="seqId" name="seqId" required />
 </div>
 <div class="input-row">
 <label for="label">Id:</label>
-<input type="text" [(ngModel)]="id" name="id" required />
+<input type="digit" [(ngModel)]="id" name="id" required />
 </div>
 <div class="input-row">
 <label for="class">Label:</label>
