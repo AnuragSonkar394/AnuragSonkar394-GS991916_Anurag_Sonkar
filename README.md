@@ -3,25 +3,6 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 📁 Project Structure
-GS_Challenge/
-│── src/
-│   ├── app/
-│   ├── assets/
-│   ├── business_component/
-│   │   ├── charts/
-│   │   ├── planning/
-│   │   ├── sku/
-│   │   ├── store/
-│   ├── shared/
-│   │   ├── modal/
-│   │   ├── navbar/
-│   │   ├── sidebar/
-│   ├── favicon.ico
-│   ├── homemodule.module.ts
-│   ├── index.html
-│── angular.json
-│── package.json
-│── README.md
 
 ![image](https://github.com/user-attachments/assets/1677e5af-f086-425b-bdb7-104c847ed60a)
 
