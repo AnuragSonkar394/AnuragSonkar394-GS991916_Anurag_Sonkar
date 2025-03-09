@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomemoduleModule } from '../homemodule.module';
-import { SharedModuleModule } from '../shared/shared-module/shared-module.module';
+
 import { Routes } from '@angular/router';
 import { StoreComponent } from '../business_component/store/store.component';
 import { SkuComponent } from '../business_component/sku/sku.component';
@@ -22,7 +22,7 @@ import { ChartsComponent } from '../business_component/charts/charts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModuleModule,
+   
     HomemoduleModule
 ],
   providers: [],

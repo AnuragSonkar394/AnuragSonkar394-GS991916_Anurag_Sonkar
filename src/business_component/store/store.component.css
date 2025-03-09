@@ -1,0 +1,213 @@
+.store-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ag-theme-alpine {
+  width: 100%;
+  max-width: 1200px;  /* Adjust max width */
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Style for actions */
+.actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.actions .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.actions .btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.actions .btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.actions button:hover {
+  opacity: 0.8;
+}
+
+
+  
+button {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* General styling for form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for individual input fields */
+div {
+  margin-bottom: 15px;
+}
+/* General form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for each row of input fields */
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* Label Styling */
+label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for the placeholder text */
+.placeholder {
+  font-size: 14px;
+  color: #f9f9f9;
+  flex-basis: 40%;
+  
+}
+
+/* Input field styling */
+input {
+  width: 55%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus effect on input */
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Button styling */
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+.store-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+background-color: #f8f9fa;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ag-theme-alpine {
+width: 100%;
+max-width: 1200px;  /* Adjust max width */
+height: auto;
+border-radius: 8px;
+overflow: hidden;
+}
+
+/* Style for actions */
+.actions {
+margin-top: 15px;
+display: flex;
+gap: 10px;
+}
+
+.actions button {
+padding: 10px 15px;
+font-size: 14px;
+font-weight: bold;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+}
+
+.actions .btn-primary {
+background-color: #007bff;
+color: white;
+}
+
+.actions .btn-success {
+background-color: #28a745;
+color: white;
+}
+
+.actions .btn-danger {
+background-color: #dc3545;
+color: white;
+}
+
+.actions button:hover {
+opacity: 0.8;
+}

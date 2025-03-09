@@ -1,1 +1,50 @@
-<p>store works!</p>
+<div class="store-container">
+   
+  
+    <ag-grid-angular
+      class="ag-theme-alpine"
+      [rowData]="rowData"
+      [columnDefs]="columnDefs"
+      [gridOptions]="gridOptions"
+      rowSelection="multiple"
+      (gridReady)="onGridReady($event)"
+      (rowDragEnd)="onRowDragEnd($event)"
+      style="height: 400px; width: 100%"
+      [pagination]="true"
+      ></ag-grid-angular>
+     
+      
+  </div>
+
+  <button class="add-btn" (click)="toggleAddForm()">➕ Add New Store</button>
+  <button class="delete-btn" (click)="removeSelected()">🗑 Remove Selected</button>
+  <!-- seqId: any;
+  id: any;
+  label: any;
+  city: any;
+  state: any; -->
+<form *ngIf="showForm">
+<div class="input-row">
+<label for="seqId">seqId:</label>
+<input type="text" [(ngModel)]="seqId" name="seqId" required />
+</div>
+<div class="input-row">
+<label for="label">Id:</label>
+<input type="text" [(ngModel)]="id" name="id" required />
+</div>
+<div class="input-row">
+<label for="class">Label:</label>
+<input type="text" [(ngModel)]="label" name="label" required />
+</div>
+<div class="input-row">
+<label for="department">City:</label>
+<input type="text" [(ngModel)]="city" name="city" required />
+</div>
+<div class="input-row">
+<label for="price">State:</label>
+<input type="text" [(ngModel)]="state" name="state" required />
+</div>
+
+<button type="submit" (click)="addStore()">Add Store</button>
+</form>
+  

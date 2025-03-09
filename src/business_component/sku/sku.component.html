@@ -1,1 +1,40 @@
-<p>sku works!</p>
+<ag-grid-angular
+  style="width: 100%; height: 400px;"
+  class="ag-theme-alpine"
+  [rowData]="rowData"
+  [columnDefs]="columnDefs"
+  (gridReady)="onGridReady($event)"
+  [pagination]="true">
+</ag-grid-angular>
+
+<!-- Button to open form -->
+<button (click)="toggleAddForm()">Add New SKU</button>
+
+<!-- Conditionally display form to add SKU -->
+<form *ngIf="showForm">
+  <div class="input-row">
+    <label for="sku">SKU:</label>
+    <input type="text" [(ngModel)]="sku" name="sku" required />
+  </div>
+  <div class="input-row">
+    <label for="label">Label:</label>
+    <input type="text" [(ngModel)]="label" name="label" required />
+  </div>
+  <div class="input-row">
+    <label for="class">Class:</label>
+    <input type="text" [(ngModel)]="class" name="class" required />
+  </div>
+  <div class="input-row">
+    <label for="department">Department:</label>
+    <input type="text" [(ngModel)]="department" name="department" required />
+  </div>
+  <div class="input-row">
+    <label for="price">Price:</label>
+    <input type="text" [(ngModel)]="price" name="price" required />
+  </div>
+  <div class="input-row">
+    <label for="cost">Cost:</label>
+    <input type="text" [(ngModel)]="cost" name="cost" required />
+  </div>
+  <button type="submit" (click)="addSku()">Add SKU</button>
+</form>

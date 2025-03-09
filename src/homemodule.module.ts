@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { SharedModuleModule } from './shared/shared-module/shared-module.module';
+
 import { StoreComponent } from './business_component/store/store.component';
 import { SkuComponent } from './business_component/sku/sku.component';
 import { PlanningComponent } from './business_component/planning/planning.component';
 import { ChartsComponent } from './business_component/charts/charts.component';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { AgGridModule } from 'ag-grid-angular';
 
 const routes: Routes = [
   { path: '', redirectTo: '/store', pathMatch: 'full' }, // Default route
@@ -23,18 +25,24 @@ const routes: Routes = [
     StoreComponent,
     SkuComponent,
     PlanningComponent,
-    ChartsComponent
+    ChartsComponent,
+    SidebarComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule,
+    AgGridModule
 
   ],
   exports:[
     StoreComponent,
     SkuComponent,
     PlanningComponent,
-    ChartsComponent
+    ChartsComponent,
+    SidebarComponent,
+    NavbarComponent
   ]
 })
 export class HomemoduleModule { }
