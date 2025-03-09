@@ -2,9 +2,56 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
-## Development server
+📁 Project Structure
+GS_Challenge/
+│── src/
+│   ├── app/
+│   ├── assets/
+│   ├── business_component/
+│   │   ├── charts/
+│   │   ├── planning/
+│   │   ├── sku/
+│   │   ├── store/
+│   ├── shared/
+│   │   ├── modal/
+│   │   ├── navbar/
+│   │   ├── sidebar/
+│   ├── favicon.ico
+│   ├── homemodule.module.ts
+│   ├── index.html
+│── angular.json
+│── package.json
+│── README.md
+
+🛠 Installation Steps
+Follow these steps to set up and run the project locally.
+
+1️⃣ Clone the Repository
+git clone https://github.com/AnuragSonkar394/AnuragSonkar394-GS991916_Anurag_Sonkar
+cd GS_Challenge
+
+2️⃣ Install Dependencies
+Run the following command to install all required npm packages:
+
+npm install
+3️⃣ Start the Development Server
+ng serve
+After running the command, open your browser and visit:
+http://localhost:4200
+
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+📌 Dependencies
+This project uses the following dependencies:
+
+🔹 Angular
+Angular CLI: ^17
+Node.js: ^18 (Ensure it's installed)
+🔹 UI Libraries
+Bootstrap 5: npm install bootstrap
+AG Grid: npm install ag-grid-angular ag-grid-community
+Chart.js: npm install chart.js
 
 ## Code scaffolding
 

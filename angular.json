@@ -23,9 +23,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/gs-challenge",
+           "outputPath": "dist",
             "index": "src/index.html",
-            "browser": "src/main.ts",
+             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
@@ -42,7 +42,8 @@
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ]
+            ],
+            "baseHref": "/AnuragSonkar394-GS991916_Anurag_Sonkar/"
           },
           "configurations": {
             "production": {
@@ -58,7 +59,7 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all" 
             },
             "development": {
               "optimization": false,
