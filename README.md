@@ -44,7 +44,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 📌 Dependencies
 This project uses the following dependencies:
-
 🔹 Angular
 Angular CLI: ^17
 Node.js: ^18 (Ensure it's installed)
@@ -52,6 +51,23 @@ Node.js: ^18 (Ensure it's installed)
 Bootstrap 5: npm install bootstrap
 AG Grid: npm install ag-grid-angular ag-grid-community
 Chart.js: npm install chart.js
+
+Store Screen
+
+![image](https://github.com/user-attachments/assets/376f412b-3da6-4b3e-b78b-a9f51dde2acd)
+
+SKU Screen 
+
+![image](https://github.com/user-attachments/assets/9a1ff1dc-74fa-49e5-a86d-a144eb7cb5a9)
+
+Planning Screen 
+
+![image](https://github.com/user-attachments/assets/3ff278dd-aebd-40b6-9a76-0de1cf1a5605)
+
+Chart Screen
+
+![image](https://github.com/user-attachments/assets/63204d08-13c8-49c8-ab3c-36835ce80d37)
+
 
 ## Code scaffolding
 
