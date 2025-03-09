@@ -100,6 +100,7 @@ export class PlanningComponent {
           field: `Sales Units_${week.week}`,
           sortable: true,
           filter: true,
+          editable: true,
           valueGetter: (params: { data?: any }) => params.data?.[`Sales Units_${week.week}`] || 0
         },
         {
