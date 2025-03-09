@@ -23,6 +23,9 @@ GS_Challenge/
 │── package.json
 │── README.md
 
+![image](https://github.com/user-attachments/assets/1677e5af-f086-425b-bdb7-104c847ed60a)
+
+
 🛠 Installation Steps
 Follow these steps to set up and run the project locally.
 
