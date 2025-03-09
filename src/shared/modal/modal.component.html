@@ -1,0 +1,16 @@
+<!-- modal.component.html -->
+<div class="modal-overlay" *ngIf="showModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Modal Title</h2>
+        <button class="close-btn" (click)="close()">X</button>
+      </div>
+      <div class="modal-body">
+        <p>Modal content goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button (click)="close()">Close</button>
+      </div>
+    </div>
+  </div>
+  
